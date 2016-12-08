@@ -1,0 +1,27 @@
+{
+  "name": "People",
+  "plural": "people",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "secondname": {
+      "type": "string",
+      "required": true
+    },
+    "Salary": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

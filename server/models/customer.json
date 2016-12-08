@@ -1,0 +1,32 @@
+{
+  "name": "CUSTOMER",
+  "base": "PersistedModel",
+  "schema": "RESTAPI",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "schema": "RESTAPI"
+  },
+  "properties": {
+    "CUSTOMERID": {
+      "type": "Number",
+      "id": true
+    },
+    "NAME": {
+      "type": "string"
+    },
+    "EMAIL": {
+      "type": "string",
+      "required": true
+    },
+    "SALDO": {
+      "type": "number",
+
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

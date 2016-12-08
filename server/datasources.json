@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "ibmi-db": {
+    "name": "ibmi-db",
+    "connector": "ibmi",
+    "username": "acl",
+    "password": "cordoba",
+     "database": "D205973W",
+     "hostname": "disibic22",
+     "schema": "RESTAPI",
+      "port":   50000
+  }
+}
